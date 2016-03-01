@@ -42,4 +42,4 @@ def gradient_descent(alpha, x, y, ep=0.0001, max_iter=100000):
             print 'Max interactions exceeded!'
             converged = True
 
-    return t0,t1
+    return [t0,t1]
